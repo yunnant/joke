@@ -80,7 +80,8 @@ def getcontent(url):
         exec("print("+name+")")
         print("\n")
         y += 1'''
-
+    
+time.sleep(10)
 joke_times=0
 itchat.auto_login(enableCmdQR=2, hotReload=True)
 itchat.run(debug=True)
