@@ -1,5 +1,5 @@
 ﻿# coding=utf-8
-import itchat,time
+import itchat,time,re
 from  itchat.content import *
 import urllib.request,urllib
 plan_dict={}
