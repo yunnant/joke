@@ -1,9 +1,7 @@
-# coding=utf-8
-import itchat, time, re,threading
+﻿# coding=utf-8
+import itchat
 from  itchat.content import *
-from datetime import datetime, timedelta
 import urllib.request,urllib
-import random
 plan_dict={}
 dict2={u'一':1,u'二':2,u'三':3,u'四':4,u'五':5,u'六':6,(u'七',u'日',u'天'):7,u'八':8,u'九':9,u'0':0}
 @itchat.msg_register([TEXT])
